@@ -1,11 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import "./Navbar.scss"
+import "./Navbar.css";
+
 const Navbar = () => {
+  const [menu, setMenu] = useState(false);
+
   return (
     <nav>
-      <Link to="/" className="title">MovieMania</Link>
-      <ul>
+      <Link to="/" className="title">
+        MovieMania
+      </Link>
+      <div
+        className="menu"
+        onClick={() => {
+          setMenu(!menu);
+        }}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={menu ? "open" : ""}>
         <li>
           <NavLink to="/about">About</NavLink>
         </li>
