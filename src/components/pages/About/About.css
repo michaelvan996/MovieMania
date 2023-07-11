@@ -1,0 +1,10 @@
+
+.About--image {
+    padding: 20px;
+}
+
+.about--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

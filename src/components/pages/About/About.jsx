@@ -1,9 +1,13 @@
 import React from 'react'
+import "./About.css";
+import AboutPhoto from "./AboutPhoto.jsx";
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className="about--container">
+      <AboutPhoto />
+    </div>
   )
 }
 
-export default About
+export default About;
