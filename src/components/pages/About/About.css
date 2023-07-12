@@ -1,6 +1,9 @@
 
 .About--image {
-    padding: 20px;
+    padding: 0;
+    margin: 0;
+    width: 50vw;
+    height: auto;
 }
 
 .about--container {
@@ -8,3 +11,97 @@
     justify-content: center;
     align-items: center;
 }
+
+.about--top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.About--text--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about--description {
+    margin: 0;
+    padding: 10px 0 20px 0;
+}
+
+.About--us--text {
+    margin: 0;
+    padding: 0;
+}
+
+.button--container {
+    background-color:#222831;
+    width: 100vw;
+    padding: 20px 0;
+}
+
+.contact--btn {
+    background-color: #EEEEEE;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: #393E46;
+}
+
+.contact--btn:hover {
+    border: 2px solid #EEEEEE;
+}
+
+.chat--btn {
+    background-color: #EEEEEE;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #393E46;
+}
+
+.chat--btn:hover {
+    border: 2px solid #EEEEEE;
+}
+
+.button--container {
+    text-align: center;
+}
+
+.aboutContainer {
+    padding: 20px 40px;
+    margin: 0;
+}
+
+.aboutTitle {
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.aboutPOne, .aboutPTwo {
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+ /* Fun fact */
+ .funFactContainer {
+    padding: 20px 40px;
+    margin: 0;
+    background-color: #222831;
+    color:#EEEEEE
+}
+
+.funFactTitle {
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.funFactPOne, .funFactPTwo {
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+.footer {
+    background-color: #EEEEEE;
+}
+

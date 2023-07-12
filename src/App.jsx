@@ -8,18 +8,20 @@ import Generator from "./components/pages/Generator/Generator.jsx";
 import Homepage from "./components/pages/Homepage/Homepage.jsx";
 import Meme from "./components/pages/Meme/Meme.jsx";
 import Search from "./components/pages/Search/Search.jsx";
+import Chat from "./components/pages/Chat/Chat.jsx";
 
 const App = () => {
   return (
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="about" element={<About />}/>
-        <Route path="contact" element={<Contact />}/>
-        <Route path="generator" element={<Generator />}/>
+        <Route path="/about" element={<About />}/>
+        <Route path="/contact" element={<Contact />}/>
+        <Route path="/generator" element={<Generator />}/>
         <Route path="/" element={<Homepage />}/>
         <Route path="/meme" element={<Meme />}/>
         <Route path="/search" element={<Search />}/>
+        <Route path="/chat" element={<Chat />}/>
       </Routes>
     </div>
   );
