@@ -1,0 +1,73 @@
+.poster-card-list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.poster-card--image {
+    padding: 20px 25px 3px 25px;
+    min-width: 25vw;
+}
+
+
+
+.poster-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster-element-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+.poster-input {
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    line-height: 2.8rem;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.poster-button {
+    background-color: #393E46;
+    color: #EEEEEE;
+    padding: 1rem 2rem;
+    border: 1px solid #393E46;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+
+/* Poster head */
+
+/* <div className="poster-head--container"> */
+/* <h2 className="poster-head--text">Create Your Own Poster</h2> */
+/* <img className="poster-head--image" src="https://media.giphy.com/media/3o7rc0qU6m5hneMsuc/giphy.gif"/> */
+/* </div> */
+
+.poster-head--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.poster-head--text {
+    font-size: 40px;
+    color:#222831;
+    margin-bottom: 25px;
+}
+
+.poster-head--image {
+    width: 30vw;
+    border-radius: 10px;
+}

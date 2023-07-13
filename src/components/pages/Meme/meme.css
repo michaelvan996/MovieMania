@@ -1,0 +1,44 @@
+/* meme header */
+
+main {
+    padding: 0 36px 36px 36px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header--title{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.meme-intro-img {
+    margin-bottom: 5px;
+}
+
+.main-meme-container {
+    background-color: #EEEEEE;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    background: #222831;
+    color:#EEEEEE;
+    border: none;
+    cursor: pointer;
+}
+
+.form--input {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}

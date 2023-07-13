@@ -20,12 +20,12 @@
 }
 
 .home-top-text-container {
-    margin-top: 15px;
+    margin-top: 20px;
     padding-top: 10px;
     padding-left: 25px;
     padding-right: 15px;
     padding-bottom: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -33,21 +33,38 @@
     color: #EEEEEE;
 }
 
+.home-bottom-text-container {
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+
 .movie-experience-text {
     padding-top: 10px;
     line-height: 20px;
+    /* margin: 40px 0; */
 }
 
 .home-image-container {
     display: flex;
     justify-content: center;
-    padding-top: 20px
+    padding-bottom: 10px;
 }
 
 .home-image {
     width: 80vw;
     /* max-width: 400px; */
     align-self: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 /* card */
@@ -55,16 +72,28 @@
 .card {
     width: 175px;
     font-size: 12px;
+    margin: 10px 20px;
+    margin-bottom: 55px;
+}
+
+.cards-container {
+    display: flex;
+    /* flex-basis: 100px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5px;
 }
 
 .card--image {
     width: 100%;
+    height: 80%;
     border-radius: 9px;
 }
 
 .card--starts {
     display: flex;
     align-items: center;
+    padding: 20px 10px;
 }
 
 .popcorn {
@@ -73,4 +102,26 @@
 
 .bold {
     font-weight: bold;
+}
+
+.rating, .review {
+    padding-left: 5px;
+}
+.review, .rating{
+    font-size: 1px;
+}
+
+.popcorn {
+    width: 5px;
+    height: auto;
+}
+
+.movie-title {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 5px 0;
+}
+
+.movie-price {
+    font-size: 14px;
 }

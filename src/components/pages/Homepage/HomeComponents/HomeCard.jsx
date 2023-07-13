@@ -1,19 +1,24 @@
 import React from 'react';
-import blade from "../HomeImages/blade.jpg";
+// import blade from "../HomeImages/blade.jpg";
 import popcorn from "../HomeImages/popcorn.png";
-const HomeCard = () => {
+// import data from "../movieData.js";
+
+
+const HomeCard = (props) => {
     return (
         <div className="card">
-            <img src={blade} className="card--image"/>
+            <img src={props.img} className="card--image"/>
             <div className="card-stats">
                 <img src={popcorn} className="popcorn"/>
-                <span>78%</span>
-                <span className="gray">(44k)</span>
+                <span className="rating">{props.rating}</span>
+                <span className="gray review">({props.review})</span>
             </div>
-            <h3><span className="bold">Runner Blade 2049</span></h3>
-            <p>From $15</p>
+            <h3 className="movie-title"><span className="bold">{props.title}</span></h3>
+            <p className="movie-price">From ${props.price}</p>
         </div>
     )
 }
+
+
 
 export default HomeCard;

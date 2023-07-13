@@ -22,13 +22,16 @@ const Navbar = () => {
       </div>
       <ul className={menu ? "open" : ""}>
         <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
           <NavLink to="/about">About</NavLink>
         </li>
         <li>
           <NavLink to="/search">Search</NavLink>
         </li>
         <li>
-          <NavLink to="/generator">Generator</NavLink>
+          <NavLink to="/poster">Poster</NavLink>
         </li>
         <li>
           <NavLink to="/meme">Meme</NavLink>
